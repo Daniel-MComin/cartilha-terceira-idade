@@ -6,7 +6,7 @@ import Image from "@/assets/imagem-idosa.png";
 
 const Index = () => {
   const cartilhaUrl = "/cartilha-seguranca-digital.pdf";
-  const whatsappUrl = "#"; 
+  const whatsappUrl = "https://chat.whatsapp.com/CZ6qxpHvUnG3AqJuptG4Hb"; 
 
   return (
     <div className="min-h-screen bg-background">
@@ -50,16 +50,7 @@ const Index = () => {
                   </a>
                 </Button>
                 
-                <Button 
-                  size="lg" 
-                  className="text-lg h-14 px-8 shadow-xl hover:shadow-2xl transition-all font-bold bg-white text-primary hover:bg-white/90"
-                  asChild
-                >
-                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                    <MessageCircle className="w-6 h-6 mr-2" />
-                    Grupo WhatsApp
-                  </a>
-                </Button>
+                
               </div>
             </div>
             
